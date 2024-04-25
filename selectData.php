@@ -4,9 +4,7 @@ $username = "root";
 $password = "";
 $dbname = "perpus";
 
-// membuat koneksi
 $conn = mysqli_connect($servername, $username, $password, $dbname);
-// Cek kondisi koneksi
 if (!$conn) {
   die("Koneksi gagal: " . mysqli_connect_error());
 }
